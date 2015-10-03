@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<h2><a href="http://uosis.mif.vu.lt/~rimask/old/fractals/50.png" target="_blank">Fractal 999</a></h2>
+		<canvas id="canvas" width="500" height="500" style="float:left;"></canvas>
+		<div id="tool-box" style="float:left;padding-left:20px;">
+			<h3>Controlls menu</h3>
+			<form id="demo-form">
+				<div class="form-group">
+					<label>
+					    <input type="radio" name="transformation" id="T1" value="1">&nbsp;T1
+					 </label>&nbsp;
+					 <label>
+					    <input type="radio" name="transformation" id="T2" value="2">&nbsp;T2
+					 </label>&nbsp;
+					 <label>
+					    <input type="radio" name="transformation" id="T3" value="3">&nbsp;T3
+					 </label>&nbsp;
+					 <label>
+					    <input type="radio" name="transformation" id="T4" value="4">&nbsp;T4
+					 </label>&nbsp;
+					<input type="submit" value="Transform" class="btn btn-primary">
+				</div>
+			</form>
+			<form id="configuration-form" class="form-inline">
+				<div class="form-group">
+					<input type="text" id="iterations" class="form-control" placeholder="Iteration number">&nbsp;
+					<div class="checkbox">
+					  <label>
+					    <input type="checkbox" checked="checked" id="colorize">
+					    Colorize
+					  </label>
+					</div>&nbsp;
+					<input type="submit" value="Generate" class="btn btn-primary">
+				</div>
+			</form>
+		</div>
+		<script>
+			function draw( ctx, iterations, colorize ) {
+				// Initialize frame
+				ctx.clearRect( 0, 0, 500, 500 );
+				ctx.strokeRect( 0, 0, 500, 500 );
+				ctx.fillStyle = "#156921";
+
+				drawFractal( iterations );
+
+				// Draws a fractal
+				function drawFractal( step ) {
+					if ( step > 0 ) {
+          				step--;
+          				ctx.save();
+          				ctx.save();
+          				ctx.save();
+          				ctx.save();
+
+          				// T1
+          				if ( step == iterations - 1 && colorize )
+          					ctx.fillStyle = "#156921";
+          				ctx.scale( 0.5, -0.5 );
+          				ctx.translate( 0,-500 );
+          				drawFractal( step );
+          				ctx.restore();
+
+          				// T2
+          				if ( step == iterations - 1 && colorize )
+          					ctx.fillStyle = "#2573B3";
+          				ctx.translate( 0, 250 );
+          				ctx.scale( 0.5, 0.5 );
+          				drawFractal( step );
+          				ctx.restore();
+          				// T3
+
+          				if ( step == iterations - 1 && colorize )
+          					ctx.fillStyle = "#B3254D";
+          				ctx.scale (0.5, 0.5 );
+          				ctx.translate( 1000, 500 );
+          				ctx.rotate( Math.PI / 2 );
+          				drawFractal( step );
+          				ctx.restore();
+
+          				// T4
+          				if ( step == iterations - 1 && colorize )
+          					ctx.fillStyle = "#F7860C";
+          				ctx.translate( 375, 125 );
+          				ctx.scale( -0.25, 0.25 );
+          				ctx.rotate( Math.PI / 2 );
+          				drawFractal( step );
+          				ctx.restore();
+          			} else {
+          				drawShape( ctx );
+          			}
+				};
+			};
+
+			// Draw a starter shape
+			function drawShape( ctx ) {
+				ctx.beginPath();
+		        ctx.moveTo( 0, 0 );
+		        ctx.lineTo( 0,500 );
+		        ctx.lineTo( 500,500 );
+		        ctx.lineTo( 500, 400 );
+		        ctx.lineTo( 200, 400 );
+		        ctx.lineTo( 200, 0 );
+		        ctx.fill();
+			};
+
+			// Transformations demo
+			function demo ( ctx, transformation ) {
+				// Initialize frame
+				framerate = 10;
+				ctx.clearRect( 0, 0, 500, 500 );
+				switch( transformation ) {
+				    case "1" :
+				        trans1();
+				        break;
+				    case "2" :
+				        trans2();
+				        break;
+				    case "3" :
+				        trans3();
+				        break;
+				    case "4" :
+				        trans4();
+				        break;
+				    default :
+				    	break;
+				}	
+
+				// Transformations
+				function trans1() {
+					scaleX = 1;
+					scaleY = 1;
+					posY = 0;
+					var int = setInterval( function() {
+						if ( scaleX <= 0.5 && scaleY <= -0.5 && posY <= -500 )
+							clearInterval( int );
+						ctx.clearRect( 0, 0, 500, 500 );
+						ctx.strokeRect( 0, 0, 500, 500 );
+						ctx.save();
+						ctx.scale( scaleX, scaleY );
+						ctx.translate( 0, posY );
+						if ( scaleX > 0.5 )
+							scaleX -= 0.005;
+						if ( scaleY > -0.5 ) 
+							scaleY -= 0.01;
+						if ( posY > -500 ) 
+							posY -= 5;
+	          			drawShape( ctx );
+	          			ctx.restore();
+					}, framerate );
+				};
+
+				function trans2() {
+					scaleXY = 1;
+					posY = 0;
+					var int = setInterval( function() {
+						if ( scaleXY <= 0.5 && posY <= 250 )
+							clearInterval( int );
+						ctx.clearRect( 0, 0, 500, 500 );
+						ctx.strokeRect( 0, 0, 500, 500 );
+						ctx.save();
+						ctx.translate( 0, posY );
+						ctx.scale( scaleXY, scaleXY );
+						if ( scaleXY > 0.5 )
+							scaleXY -= 0.005;
+						if ( posY < 250 ) 
+							posY += 2.5;
+	          			drawShape( ctx );
+	          			ctx.restore();
+					}, framerate );	
+				};
+
+				function trans3() {
+					scaleXY = 1;
+					posX = 0;
+					posY = 0;
+					angle = 0;
+					var int = setInterval( function() {
+						if ( scaleXY <= 0.5 && posX >= 500 && posY >= 500  
+							 && angle >= Math.PI / 2 )
+							clearInterval( int );
+						ctx.clearRect( 0, 0, 500, 500 );
+						ctx.strokeRect( 0, 0, 500, 500 );
+						ctx.save();
+						ctx.scale( scaleXY, scaleXY );
+						ctx.translate( posX, posY );
+						ctx.rotate( angle );
+						if ( scaleXY > 0.5 ) {
+							scaleXY -= 0.005;
+						}
+						if ( posX < 1000 ) {
+							posX += 10;
+						}
+						if ( posY < 500 ) {
+							posY += 5;
+						}
+						if ( angle <= Math.PI / 2 )
+							angle += Math.PI / 100;
+	          			drawShape( ctx );
+	          			ctx.restore();
+					}, framerate );
+				};
+
+				function trans4() {
+					scaleX = 1;
+					scaleY = 1;
+					posX = 0;
+					posY = 0;
+					angle = 0;
+					var int = setInterval( function() {
+						if ( scaleX <= -0.25 && scaleY <= 0.25 && posX >= 375 
+							 && posY >= 125 && angle >= Math.PI / 2 )
+							clearInterval( int );
+						ctx.clearRect( 0, 0, 500, 500 );
+						ctx.strokeRect( 0, 0, 500, 500 );
+						ctx.save();
+						ctx.translate( posX, posY );
+						ctx.scale( scaleX, scaleY );
+						ctx.rotate( angle );
+						if ( scaleX > -0.25 )
+							scaleX -= 0.0075;
+						if ( scaleY > 0.25 )
+							scaleY -= 0.005;
+						if ( posX < 375 ) 
+							posX += 3.75;
+						if ( posY < 125 ) 
+							posY += 1.25;
+						if ( angle <= Math.PI / 2 )
+							angle += Math.PI / 100;
+	          			drawShape( ctx );
+	          			ctx.restore();
+					}, framerate );	
+				};			
+			};
+
+			$( document ).ready( function() {
+				// Initialize canvas
+				var canvas = $( "#canvas" )[ 0 ];
+				if ( !canvas.getContext ) {
+					alert( "Canvas context not found!" );
+					return false;
+				}
+				var ctx = canvas.getContext( "2d" );
+
+				// Get default screen
+				draw( ctx, 1, $( "#colorize" ).is( ":checked" ) );
+				$( "#iterations" ).val( "1" );
+
+				// Handle fractal generator form
+				$( "#configuration-form" ).on( "submit", function( event ) {
+					event.preventDefault();
+					var val = parseInt( $( "#iterations" ).val() );
+					if ( !val && val != 0 ) {
+						alert( "Input must be numeric!" );
+						return false;	
+					}
+					if ( val > 9 || val < 0 ) {
+						alert( "Iteration count must be in range [0;9]" );
+						return false;	
+					}
+					var colorize = $( "#colorize" ).is( ":checked" );
+					draw( ctx, val, colorize );
+				});
+
+				// Handle demo animation form
+				$( "#demo-form" ).on( "submit", function( event ) {
+					event.preventDefault();
+					var val = $( "input[name='transformation']:checked" ).val();
+					demo( ctx, val );
+				});
+			});
+		</script>
+	</body>
+</html>
