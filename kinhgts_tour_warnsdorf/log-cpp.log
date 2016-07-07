@@ -1,0 +1,2225 @@
+initial knight's position is at (0, 4)
+move to (4, 0)
+check to (2, 1)
+coordinate (0, 2) is available
+coordinate (1, 3) is available
+coordinate (3, 3) is available
+coordinate (4, 2) is available
+coordinate (4, 0) is not available
+coordinate (3, -1) is offside
+coordinate (1, -1) is offside
+coordinate (0, 0) is available
+on (2, 1) ctr is 5
+check to (3, 2)
+coordinate (1, 3) is available
+coordinate (2, 4) is available
+coordinate (4, 4) is available
+coordinate (5, 3) is available
+coordinate (5, 1) is available
+coordinate (4, 0) is not available
+coordinate (2, 0) is available
+coordinate (1, 1) is available
+on (3, 2) ctr is 7
+check to (5, 2)
+coordinate (3, 3) is available
+coordinate (4, 4) is available
+coordinate (6, 4) is available
+coordinate (7, 3) is available
+coordinate (7, 1) is available
+coordinate (6, 0) is available
+coordinate (4, 0) is not available
+coordinate (3, 1) is available
+on (5, 2) ctr is 7
+check to (6, 1)
+coordinate (4, 2) is available
+coordinate (5, 3) is available
+coordinate (7, 3) is available
+coordinate (8, 2) is offside
+coordinate (8, 0) is offside
+coordinate (7, -1) is offside
+coordinate (5, -1) is offside
+coordinate (4, 0) is not available
+on (6, 1) ctr is 3
+coordinate (6, -1) is offside
+coordinate (5, -2) is offside
+coordinate (3, -2) is offside
+coordinate (2, -1) is offside
+check minimum counter
+minimum value is 3 in index 3
+move to (6, 1)
+check to (4, 2)
+coordinate (2, 3) is available
+coordinate (3, 4) is available
+coordinate (5, 4) is available
+coordinate (6, 3) is available
+coordinate (6, 1) is not available
+coordinate (5, 0) is available
+coordinate (3, 0) is available
+coordinate (2, 1) is available
+on (4, 2) ctr is 7
+check to (5, 3)
+coordinate (3, 4) is available
+coordinate (4, 5) is available
+coordinate (6, 5) is available
+coordinate (7, 4) is available
+coordinate (7, 2) is available
+coordinate (6, 1) is not available
+coordinate (4, 1) is available
+coordinate (3, 2) is available
+on (5, 3) ctr is 7
+check to (7, 3)
+coordinate (5, 4) is available
+coordinate (6, 5) is available
+coordinate (8, 5) is offside
+coordinate (9, 4) is offside
+coordinate (9, 2) is offside
+coordinate (8, 1) is offside
+coordinate (6, 1) is not available
+coordinate (5, 2) is available
+on (7, 3) ctr is 3
+coordinate (8, 2) is offside
+coordinate (8, 0) is offside
+coordinate (7, -1) is offside
+coordinate (5, -1) is offside
+coordinate (4, 0) is not available
+check minimum counter
+minimum value is 3 in index 2
+move to (7, 3)
+check to (5, 4)
+coordinate (3, 5) is available
+coordinate (4, 6) is available
+coordinate (6, 6) is available
+coordinate (7, 5) is available
+coordinate (7, 3) is not available
+coordinate (6, 2) is available
+coordinate (4, 2) is available
+coordinate (3, 3) is available
+on (5, 4) ctr is 7
+check to (6, 5)
+coordinate (4, 6) is available
+coordinate (5, 7) is available
+coordinate (7, 7) is available
+coordinate (8, 6) is offside
+coordinate (8, 4) is offside
+coordinate (7, 3) is not available
+coordinate (5, 3) is available
+coordinate (4, 4) is available
+on (6, 5) ctr is 5
+coordinate (8, 5) is offside
+coordinate (9, 4) is offside
+coordinate (9, 2) is offside
+coordinate (8, 1) is offside
+coordinate (6, 1) is not available
+check to (5, 2)
+coordinate (3, 3) is available
+coordinate (4, 4) is available
+coordinate (6, 4) is available
+coordinate (7, 3) is not available
+coordinate (7, 1) is available
+coordinate (6, 0) is available
+coordinate (4, 0) is not available
+coordinate (3, 1) is available
+on (5, 2) ctr is 6
+check minimum counter
+minimum value is 5 in index 1
+move to (6, 5)
+check to (4, 6)
+coordinate (2, 7) is available
+coordinate (3, 8) is offside
+coordinate (5, 8) is offside
+coordinate (6, 7) is available
+coordinate (6, 5) is not available
+coordinate (5, 4) is available
+coordinate (3, 4) is available
+coordinate (2, 5) is available
+on (4, 6) ctr is 5
+check to (5, 7)
+coordinate (3, 8) is offside
+coordinate (4, 9) is offside
+coordinate (6, 9) is offside
+coordinate (7, 8) is offside
+coordinate (7, 6) is available
+coordinate (6, 5) is not available
+coordinate (4, 5) is available
+coordinate (3, 6) is available
+on (5, 7) ctr is 3
+check to (7, 7)
+coordinate (5, 8) is offside
+coordinate (6, 9) is offside
+coordinate (8, 9) is offside
+coordinate (9, 8) is offside
+coordinate (9, 6) is offside
+coordinate (8, 5) is offside
+coordinate (6, 5) is not available
+coordinate (5, 6) is available
+on (7, 7) ctr is 1
+coordinate (8, 6) is offside
+coordinate (8, 4) is offside
+coordinate (7, 3) is not available
+check to (5, 3)
+coordinate (3, 4) is available
+coordinate (4, 5) is available
+coordinate (6, 5) is not available
+coordinate (7, 4) is available
+coordinate (7, 2) is available
+coordinate (6, 1) is not available
+coordinate (4, 1) is available
+coordinate (3, 2) is available
+on (5, 3) ctr is 6
+check to (4, 4)
+coordinate (2, 5) is available
+coordinate (3, 6) is available
+coordinate (5, 6) is available
+coordinate (6, 5) is not available
+coordinate (6, 3) is available
+coordinate (5, 2) is available
+coordinate (3, 2) is available
+coordinate (2, 3) is available
+on (4, 4) ctr is 7
+check minimum counter
+minimum value is 1 in index 2
+move to (7, 7)
+coordinate (5, 8) is offside
+coordinate (6, 9) is offside
+coordinate (8, 9) is offside
+coordinate (9, 8) is offside
+coordinate (9, 6) is offside
+coordinate (8, 5) is offside
+coordinate (6, 5) is not available
+check to (5, 6)
+coordinate (3, 7) is available
+coordinate (4, 8) is offside
+coordinate (6, 8) is offside
+coordinate (7, 7) is not available
+coordinate (7, 5) is available
+coordinate (6, 4) is available
+coordinate (4, 4) is available
+coordinate (3, 5) is available
+on (5, 6) ctr is 5
+check minimum counter
+minimum value is 5 in index 0
+move to (5, 6)
+check to (3, 7)
+coordinate (1, 8) is offside
+coordinate (2, 9) is offside
+coordinate (4, 9) is offside
+coordinate (5, 8) is offside
+coordinate (5, 6) is not available
+coordinate (4, 5) is available
+coordinate (2, 5) is available
+coordinate (1, 6) is available
+on (3, 7) ctr is 3
+coordinate (4, 8) is offside
+coordinate (6, 8) is offside
+coordinate (7, 7) is not available
+check to (7, 5)
+coordinate (5, 6) is not available
+coordinate (6, 7) is available
+coordinate (8, 7) is offside
+coordinate (9, 6) is offside
+coordinate (9, 4) is offside
+coordinate (8, 3) is offside
+coordinate (6, 3) is available
+coordinate (5, 4) is available
+on (7, 5) ctr is 3
+check to (6, 4)
+coordinate (4, 5) is available
+coordinate (5, 6) is not available
+coordinate (7, 6) is available
+coordinate (8, 5) is offside
+coordinate (8, 3) is offside
+coordinate (7, 2) is available
+coordinate (5, 2) is available
+coordinate (4, 3) is available
+on (6, 4) ctr is 5
+check to (4, 4)
+coordinate (2, 5) is available
+coordinate (3, 6) is available
+coordinate (5, 6) is not available
+coordinate (6, 5) is not available
+coordinate (6, 3) is available
+coordinate (5, 2) is available
+coordinate (3, 2) is available
+coordinate (2, 3) is available
+on (4, 4) ctr is 6
+check to (3, 5)
+coordinate (1, 6) is available
+coordinate (2, 7) is available
+coordinate (4, 7) is available
+coordinate (5, 6) is not available
+coordinate (5, 4) is available
+coordinate (4, 3) is available
+coordinate (2, 3) is available
+coordinate (1, 4) is available
+on (3, 5) ctr is 7
+check minimum counter
+minimum value is 3 in index 0
+move to (3, 7)
+coordinate (1, 8) is offside
+coordinate (2, 9) is offside
+coordinate (4, 9) is offside
+coordinate (5, 8) is offside
+coordinate (5, 6) is not available
+check to (4, 5)
+coordinate (2, 6) is available
+coordinate (3, 7) is not available
+coordinate (5, 7) is available
+coordinate (6, 6) is available
+coordinate (6, 4) is available
+coordinate (5, 3) is available
+coordinate (3, 3) is available
+coordinate (2, 4) is available
+on (4, 5) ctr is 7
+check to (2, 5)
+coordinate (0, 6) is available
+coordinate (1, 7) is available
+coordinate (3, 7) is not available
+coordinate (4, 6) is available
+coordinate (4, 4) is available
+coordinate (3, 3) is available
+coordinate (1, 3) is available
+coordinate (0, 4) is available
+on (2, 5) ctr is 7
+check to (1, 6)
+coordinate (-1, 7) is offside
+coordinate (0, 8) is offside
+coordinate (2, 8) is offside
+coordinate (3, 7) is not available
+coordinate (3, 5) is available
+coordinate (2, 4) is available
+coordinate (0, 4) is available
+coordinate (-1, 5) is offside
+on (1, 6) ctr is 3
+check minimum counter
+minimum value is 3 in index 2
+move to (1, 6)
+coordinate (-1, 7) is offside
+coordinate (0, 8) is offside
+coordinate (2, 8) is offside
+coordinate (3, 7) is not available
+check to (3, 5)
+coordinate (1, 6) is not available
+coordinate (2, 7) is available
+coordinate (4, 7) is available
+coordinate (5, 6) is not available
+coordinate (5, 4) is available
+coordinate (4, 3) is available
+coordinate (2, 3) is available
+coordinate (1, 4) is available
+on (3, 5) ctr is 6
+check to (2, 4)
+coordinate (0, 5) is available
+coordinate (1, 6) is not available
+coordinate (3, 6) is available
+coordinate (4, 5) is available
+coordinate (4, 3) is available
+coordinate (3, 2) is available
+coordinate (1, 2) is available
+coordinate (0, 3) is available
+on (2, 4) ctr is 7
+check to (0, 4)
+coordinate (-2, 5) is offside
+coordinate (-1, 6) is offside
+coordinate (1, 6) is not available
+coordinate (2, 5) is available
+coordinate (2, 3) is available
+coordinate (1, 2) is available
+coordinate (-1, 2) is offside
+coordinate (-2, 3) is offside
+on (0, 4) ctr is 3
+coordinate (-1, 5) is offside
+check minimum counter
+minimum value is 3 in index 2
+move to (0, 4)
+coordinate (-2, 5) is offside
+coordinate (-1, 6) is offside
+coordinate (1, 6) is not available
+check to (2, 5)
+coordinate (0, 6) is available
+coordinate (1, 7) is available
+coordinate (3, 7) is not available
+coordinate (4, 6) is available
+coordinate (4, 4) is available
+coordinate (3, 3) is available
+coordinate (1, 3) is available
+coordinate (0, 4) is not available
+on (2, 5) ctr is 6
+check to (2, 3)
+coordinate (0, 4) is not available
+coordinate (1, 5) is available
+coordinate (3, 5) is available
+coordinate (4, 4) is available
+coordinate (4, 2) is available
+coordinate (3, 1) is available
+coordinate (1, 1) is available
+coordinate (0, 2) is available
+on (2, 3) ctr is 7
+check to (1, 2)
+coordinate (-1, 3) is offside
+coordinate (0, 4) is not available
+coordinate (2, 4) is available
+coordinate (3, 3) is available
+coordinate (3, 1) is available
+coordinate (2, 0) is available
+coordinate (0, 0) is available
+coordinate (-1, 1) is offside
+on (1, 2) ctr is 5
+coordinate (-1, 2) is offside
+coordinate (-2, 3) is offside
+check minimum counter
+minimum value is 5 in index 2
+move to (1, 2)
+coordinate (-1, 3) is offside
+coordinate (0, 4) is not available
+check to (2, 4)
+coordinate (0, 5) is available
+coordinate (1, 6) is not available
+coordinate (3, 6) is available
+coordinate (4, 5) is available
+coordinate (4, 3) is available
+coordinate (3, 2) is available
+coordinate (1, 2) is not available
+coordinate (0, 3) is available
+on (2, 4) ctr is 6
+check to (3, 3)
+coordinate (1, 4) is available
+coordinate (2, 5) is available
+coordinate (4, 5) is available
+coordinate (5, 4) is available
+coordinate (5, 2) is available
+coordinate (4, 1) is available
+coordinate (2, 1) is available
+coordinate (1, 2) is not available
+on (3, 3) ctr is 7
+check to (3, 1)
+coordinate (1, 2) is not available
+coordinate (2, 3) is available
+coordinate (4, 3) is available
+coordinate (5, 2) is available
+coordinate (5, 0) is available
+coordinate (4, -1) is offside
+coordinate (2, -1) is offside
+coordinate (1, 0) is available
+on (3, 1) ctr is 5
+check to (2, 0)
+coordinate (0, 1) is available
+coordinate (1, 2) is not available
+coordinate (3, 2) is available
+coordinate (4, 1) is available
+coordinate (4, -1) is offside
+coordinate (3, -2) is offside
+coordinate (1, -2) is offside
+coordinate (0, -1) is offside
+on (2, 0) ctr is 3
+check to (0, 0)
+coordinate (-2, 1) is offside
+coordinate (-1, 2) is offside
+coordinate (1, 2) is not available
+coordinate (2, 1) is available
+coordinate (2, -1) is offside
+coordinate (1, -2) is offside
+coordinate (-1, -2) is offside
+coordinate (-2, -1) is offside
+on (0, 0) ctr is 1
+coordinate (-1, 1) is offside
+check minimum counter
+minimum value is 1 in index 4
+move to (0, 0)
+coordinate (-2, 1) is offside
+coordinate (-1, 2) is offside
+coordinate (1, 2) is not available
+check to (2, 1)
+coordinate (0, 2) is available
+coordinate (1, 3) is available
+coordinate (3, 3) is available
+coordinate (4, 2) is available
+coordinate (4, 0) is not available
+coordinate (3, -1) is offside
+coordinate (1, -1) is offside
+coordinate (0, 0) is not available
+on (2, 1) ctr is 4
+coordinate (2, -1) is offside
+coordinate (1, -2) is offside
+coordinate (-1, -2) is offside
+coordinate (-2, -1) is offside
+check minimum counter
+minimum value is 4 in index 0
+move to (2, 1)
+check to (0, 2)
+coordinate (-2, 3) is offside
+coordinate (-1, 4) is offside
+coordinate (1, 4) is available
+coordinate (2, 3) is available
+coordinate (2, 1) is not available
+coordinate (1, 0) is available
+coordinate (-1, 0) is offside
+coordinate (-2, 1) is offside
+on (0, 2) ctr is 3
+check to (1, 3)
+coordinate (-1, 4) is offside
+coordinate (0, 5) is available
+coordinate (2, 5) is available
+coordinate (3, 4) is available
+coordinate (3, 2) is available
+coordinate (2, 1) is not available
+coordinate (0, 1) is available
+coordinate (-1, 2) is offside
+on (1, 3) ctr is 5
+check to (3, 3)
+coordinate (1, 4) is available
+coordinate (2, 5) is available
+coordinate (4, 5) is available
+coordinate (5, 4) is available
+coordinate (5, 2) is available
+coordinate (4, 1) is available
+coordinate (2, 1) is not available
+coordinate (1, 2) is not available
+on (3, 3) ctr is 6
+check to (4, 2)
+coordinate (2, 3) is available
+coordinate (3, 4) is available
+coordinate (5, 4) is available
+coordinate (6, 3) is available
+coordinate (6, 1) is not available
+coordinate (5, 0) is available
+coordinate (3, 0) is available
+coordinate (2, 1) is not available
+on (4, 2) ctr is 6
+coordinate (4, 0) is not available
+coordinate (3, -1) is offside
+coordinate (1, -1) is offside
+coordinate (0, 0) is not available
+check minimum counter
+minimum value is 3 in index 0
+move to (0, 2)
+coordinate (-2, 3) is offside
+coordinate (-1, 4) is offside
+check to (1, 4)
+coordinate (-1, 5) is offside
+coordinate (0, 6) is available
+coordinate (2, 6) is available
+coordinate (3, 5) is available
+coordinate (3, 3) is available
+coordinate (2, 2) is available
+coordinate (0, 2) is not available
+coordinate (-1, 3) is offside
+on (1, 4) ctr is 5
+check to (2, 3)
+coordinate (0, 4) is not available
+coordinate (1, 5) is available
+coordinate (3, 5) is available
+coordinate (4, 4) is available
+coordinate (4, 2) is available
+coordinate (3, 1) is available
+coordinate (1, 1) is available
+coordinate (0, 2) is not available
+on (2, 3) ctr is 6
+coordinate (2, 1) is not available
+check to (1, 0)
+coordinate (-1, 1) is offside
+coordinate (0, 2) is not available
+coordinate (2, 2) is available
+coordinate (3, 1) is available
+coordinate (3, -1) is offside
+coordinate (2, -2) is offside
+coordinate (0, -2) is offside
+coordinate (-1, -1) is offside
+on (1, 0) ctr is 2
+coordinate (-1, 0) is offside
+coordinate (-2, 1) is offside
+check minimum counter
+minimum value is 2 in index 2
+move to (1, 0)
+coordinate (-1, 1) is offside
+coordinate (0, 2) is not available
+check to (2, 2)
+coordinate (0, 3) is available
+coordinate (1, 4) is available
+coordinate (3, 4) is available
+coordinate (4, 3) is available
+coordinate (4, 1) is available
+coordinate (3, 0) is available
+coordinate (1, 0) is not available
+coordinate (0, 1) is available
+on (2, 2) ctr is 7
+check to (3, 1)
+coordinate (1, 2) is not available
+coordinate (2, 3) is available
+coordinate (4, 3) is available
+coordinate (5, 2) is available
+coordinate (5, 0) is available
+coordinate (4, -1) is offside
+coordinate (2, -1) is offside
+coordinate (1, 0) is not available
+on (3, 1) ctr is 4
+coordinate (3, -1) is offside
+coordinate (2, -2) is offside
+coordinate (0, -2) is offside
+coordinate (-1, -1) is offside
+check minimum counter
+minimum value is 4 in index 1
+move to (3, 1)
+coordinate (1, 2) is not available
+check to (2, 3)
+coordinate (0, 4) is not available
+coordinate (1, 5) is available
+coordinate (3, 5) is available
+coordinate (4, 4) is available
+coordinate (4, 2) is available
+coordinate (3, 1) is not available
+coordinate (1, 1) is available
+coordinate (0, 2) is not available
+on (2, 3) ctr is 5
+check to (4, 3)
+coordinate (2, 4) is available
+coordinate (3, 5) is available
+coordinate (5, 5) is available
+coordinate (6, 4) is available
+coordinate (6, 2) is available
+coordinate (5, 1) is available
+coordinate (3, 1) is not available
+coordinate (2, 2) is available
+on (4, 3) ctr is 7
+check to (5, 2)
+coordinate (3, 3) is available
+coordinate (4, 4) is available
+coordinate (6, 4) is available
+coordinate (7, 3) is not available
+coordinate (7, 1) is available
+coordinate (6, 0) is available
+coordinate (4, 0) is not available
+coordinate (3, 1) is not available
+on (5, 2) ctr is 5
+check to (5, 0)
+coordinate (3, 1) is not available
+coordinate (4, 2) is available
+coordinate (6, 2) is available
+coordinate (7, 1) is available
+coordinate (7, -1) is offside
+coordinate (6, -2) is offside
+coordinate (4, -2) is offside
+coordinate (3, -1) is offside
+on (5, 0) ctr is 3
+coordinate (4, -1) is offside
+coordinate (2, -1) is offside
+coordinate (1, 0) is not available
+check minimum counter
+minimum value is 3 in index 3
+move to (5, 0)
+coordinate (3, 1) is not available
+check to (4, 2)
+coordinate (2, 3) is available
+coordinate (3, 4) is available
+coordinate (5, 4) is available
+coordinate (6, 3) is available
+coordinate (6, 1) is not available
+coordinate (5, 0) is not available
+coordinate (3, 0) is available
+coordinate (2, 1) is not available
+on (4, 2) ctr is 5
+check to (6, 2)
+coordinate (4, 3) is available
+coordinate (5, 4) is available
+coordinate (7, 4) is available
+coordinate (8, 3) is offside
+coordinate (8, 1) is offside
+coordinate (7, 0) is available
+coordinate (5, 0) is not available
+coordinate (4, 1) is available
+on (6, 2) ctr is 5
+check to (7, 1)
+coordinate (5, 2) is available
+coordinate (6, 3) is available
+coordinate (8, 3) is offside
+coordinate (9, 2) is offside
+coordinate (9, 0) is offside
+coordinate (8, -1) is offside
+coordinate (6, -1) is offside
+coordinate (5, 0) is not available
+on (7, 1) ctr is 2
+coordinate (7, -1) is offside
+coordinate (6, -2) is offside
+coordinate (4, -2) is offside
+coordinate (3, -1) is offside
+check minimum counter
+minimum value is 2 in index 2
+move to (7, 1)
+check to (5, 2)
+coordinate (3, 3) is available
+coordinate (4, 4) is available
+coordinate (6, 4) is available
+coordinate (7, 3) is not available
+coordinate (7, 1) is not available
+coordinate (6, 0) is available
+coordinate (4, 0) is not available
+coordinate (3, 1) is not available
+on (5, 2) ctr is 4
+check to (6, 3)
+coordinate (4, 4) is available
+coordinate (5, 5) is available
+coordinate (7, 5) is available
+coordinate (8, 4) is offside
+coordinate (8, 2) is offside
+coordinate (7, 1) is not available
+coordinate (5, 1) is available
+coordinate (4, 2) is available
+on (6, 3) ctr is 5
+coordinate (8, 3) is offside
+coordinate (9, 2) is offside
+coordinate (9, 0) is offside
+coordinate (8, -1) is offside
+coordinate (6, -1) is offside
+coordinate (5, 0) is not available
+check minimum counter
+minimum value is 4 in index 0
+move to (5, 2)
+check to (3, 3)
+coordinate (1, 4) is available
+coordinate (2, 5) is available
+coordinate (4, 5) is available
+coordinate (5, 4) is available
+coordinate (5, 2) is not available
+coordinate (4, 1) is available
+coordinate (2, 1) is not available
+coordinate (1, 2) is not available
+on (3, 3) ctr is 5
+check to (4, 4)
+coordinate (2, 5) is available
+coordinate (3, 6) is available
+coordinate (5, 6) is not available
+coordinate (6, 5) is not available
+coordinate (6, 3) is available
+coordinate (5, 2) is not available
+coordinate (3, 2) is available
+coordinate (2, 3) is available
+on (4, 4) ctr is 5
+check to (6, 4)
+coordinate (4, 5) is available
+coordinate (5, 6) is not available
+coordinate (7, 6) is available
+coordinate (8, 5) is offside
+coordinate (8, 3) is offside
+coordinate (7, 2) is available
+coordinate (5, 2) is not available
+coordinate (4, 3) is available
+on (6, 4) ctr is 4
+coordinate (7, 3) is not available
+coordinate (7, 1) is not available
+check to (6, 0)
+coordinate (4, 1) is available
+coordinate (5, 2) is not available
+coordinate (7, 2) is available
+coordinate (8, 1) is offside
+coordinate (8, -1) is offside
+coordinate (7, -2) is offside
+coordinate (5, -2) is offside
+coordinate (4, -1) is offside
+on (6, 0) ctr is 2
+coordinate (4, 0) is not available
+coordinate (3, 1) is not available
+check minimum counter
+minimum value is 2 in index 3
+move to (6, 0)
+check to (4, 1)
+coordinate (2, 2) is available
+coordinate (3, 3) is available
+coordinate (5, 3) is available
+coordinate (6, 2) is available
+coordinate (6, 0) is not available
+coordinate (5, -1) is offside
+coordinate (3, -1) is offside
+coordinate (2, 0) is available
+on (4, 1) ctr is 5
+coordinate (5, 2) is not available
+check to (7, 2)
+coordinate (5, 3) is available
+coordinate (6, 4) is available
+coordinate (8, 4) is offside
+coordinate (9, 3) is offside
+coordinate (9, 1) is offside
+coordinate (8, 0) is offside
+coordinate (6, 0) is not available
+coordinate (5, 1) is available
+on (7, 2) ctr is 3
+coordinate (8, 1) is offside
+coordinate (8, -1) is offside
+coordinate (7, -2) is offside
+coordinate (5, -2) is offside
+coordinate (4, -1) is offside
+check minimum counter
+minimum value is 3 in index 1
+move to (7, 2)
+check to (5, 3)
+coordinate (3, 4) is available
+coordinate (4, 5) is available
+coordinate (6, 5) is not available
+coordinate (7, 4) is available
+coordinate (7, 2) is not available
+coordinate (6, 1) is not available
+coordinate (4, 1) is available
+coordinate (3, 2) is available
+on (5, 3) ctr is 5
+check to (6, 4)
+coordinate (4, 5) is available
+coordinate (5, 6) is not available
+coordinate (7, 6) is available
+coordinate (8, 5) is offside
+coordinate (8, 3) is offside
+coordinate (7, 2) is not available
+coordinate (5, 2) is not available
+coordinate (4, 3) is available
+on (6, 4) ctr is 3
+coordinate (8, 4) is offside
+coordinate (9, 3) is offside
+coordinate (9, 1) is offside
+coordinate (8, 0) is offside
+coordinate (6, 0) is not available
+check to (5, 1)
+coordinate (3, 2) is available
+coordinate (4, 3) is available
+coordinate (6, 3) is available
+coordinate (7, 2) is not available
+coordinate (7, 0) is available
+coordinate (6, -1) is offside
+coordinate (4, -1) is offside
+coordinate (3, 0) is available
+on (5, 1) ctr is 5
+check minimum counter
+minimum value is 3 in index 1
+move to (6, 4)
+check to (4, 5)
+coordinate (2, 6) is available
+coordinate (3, 7) is not available
+coordinate (5, 7) is available
+coordinate (6, 6) is available
+coordinate (6, 4) is not available
+coordinate (5, 3) is available
+coordinate (3, 3) is available
+coordinate (2, 4) is available
+on (4, 5) ctr is 6
+coordinate (5, 6) is not available
+check to (7, 6)
+coordinate (5, 7) is available
+coordinate (6, 8) is offside
+coordinate (8, 8) is offside
+coordinate (9, 7) is offside
+coordinate (9, 5) is offside
+coordinate (8, 4) is offside
+coordinate (6, 4) is not available
+coordinate (5, 5) is available
+on (7, 6) ctr is 2
+coordinate (8, 5) is offside
+coordinate (8, 3) is offside
+coordinate (7, 2) is not available
+coordinate (5, 2) is not available
+check to (4, 3)
+coordinate (2, 4) is available
+coordinate (3, 5) is available
+coordinate (5, 5) is available
+coordinate (6, 4) is not available
+coordinate (6, 2) is available
+coordinate (5, 1) is available
+coordinate (3, 1) is not available
+coordinate (2, 2) is available
+on (4, 3) ctr is 6
+check minimum counter
+minimum value is 2 in index 1
+move to (7, 6)
+check to (5, 7)
+coordinate (3, 8) is offside
+coordinate (4, 9) is offside
+coordinate (6, 9) is offside
+coordinate (7, 8) is offside
+coordinate (7, 6) is not available
+coordinate (6, 5) is not available
+coordinate (4, 5) is available
+coordinate (3, 6) is available
+on (5, 7) ctr is 2
+coordinate (6, 8) is offside
+coordinate (8, 8) is offside
+coordinate (9, 7) is offside
+coordinate (9, 5) is offside
+coordinate (8, 4) is offside
+coordinate (6, 4) is not available
+check to (5, 5)
+coordinate (3, 6) is available
+coordinate (4, 7) is available
+coordinate (6, 7) is available
+coordinate (7, 6) is not available
+coordinate (7, 4) is available
+coordinate (6, 3) is available
+coordinate (4, 3) is available
+coordinate (3, 4) is available
+on (5, 5) ctr is 7
+check minimum counter
+minimum value is 2 in index 0
+move to (5, 7)
+coordinate (3, 8) is offside
+coordinate (4, 9) is offside
+coordinate (6, 9) is offside
+coordinate (7, 8) is offside
+coordinate (7, 6) is not available
+coordinate (6, 5) is not available
+check to (4, 5)
+coordinate (2, 6) is available
+coordinate (3, 7) is not available
+coordinate (5, 7) is not available
+coordinate (6, 6) is available
+coordinate (6, 4) is not available
+coordinate (5, 3) is available
+coordinate (3, 3) is available
+coordinate (2, 4) is available
+on (4, 5) ctr is 5
+check to (3, 6)
+coordinate (1, 7) is available
+coordinate (2, 8) is offside
+coordinate (4, 8) is offside
+coordinate (5, 7) is not available
+coordinate (5, 5) is available
+coordinate (4, 4) is available
+coordinate (2, 4) is available
+coordinate (1, 5) is available
+on (3, 6) ctr is 5
+check minimum counter
+minimum value is 5 in index 0
+move to (4, 5)
+check to (2, 6)
+coordinate (0, 7) is available
+coordinate (1, 8) is offside
+coordinate (3, 8) is offside
+coordinate (4, 7) is available
+coordinate (4, 5) is not available
+coordinate (3, 4) is available
+coordinate (1, 4) is available
+coordinate (0, 5) is available
+on (2, 6) ctr is 5
+coordinate (3, 7) is not available
+coordinate (5, 7) is not available
+check to (6, 6)
+coordinate (4, 7) is available
+coordinate (5, 8) is offside
+coordinate (7, 8) is offside
+coordinate (8, 7) is offside
+coordinate (8, 5) is offside
+coordinate (7, 4) is available
+coordinate (5, 4) is available
+coordinate (4, 5) is not available
+on (6, 6) ctr is 3
+coordinate (6, 4) is not available
+check to (5, 3)
+coordinate (3, 4) is available
+coordinate (4, 5) is not available
+coordinate (6, 5) is not available
+coordinate (7, 4) is available
+coordinate (7, 2) is not available
+coordinate (6, 1) is not available
+coordinate (4, 1) is available
+coordinate (3, 2) is available
+on (5, 3) ctr is 4
+check to (3, 3)
+coordinate (1, 4) is available
+coordinate (2, 5) is available
+coordinate (4, 5) is not available
+coordinate (5, 4) is available
+coordinate (5, 2) is not available
+coordinate (4, 1) is available
+coordinate (2, 1) is not available
+coordinate (1, 2) is not available
+on (3, 3) ctr is 4
+check to (2, 4)
+coordinate (0, 5) is available
+coordinate (1, 6) is not available
+coordinate (3, 6) is available
+coordinate (4, 5) is not available
+coordinate (4, 3) is available
+coordinate (3, 2) is available
+coordinate (1, 2) is not available
+coordinate (0, 3) is available
+on (2, 4) ctr is 5
+check minimum counter
+minimum value is 3 in index 1
+move to (6, 6)
+check to (4, 7)
+coordinate (2, 8) is offside
+coordinate (3, 9) is offside
+coordinate (5, 9) is offside
+coordinate (6, 8) is offside
+coordinate (6, 6) is not available
+coordinate (5, 5) is available
+coordinate (3, 5) is available
+coordinate (2, 6) is available
+on (4, 7) ctr is 3
+coordinate (5, 8) is offside
+coordinate (7, 8) is offside
+coordinate (8, 7) is offside
+coordinate (8, 5) is offside
+check to (7, 4)
+coordinate (5, 5) is available
+coordinate (6, 6) is not available
+coordinate (8, 6) is offside
+coordinate (9, 5) is offside
+coordinate (9, 3) is offside
+coordinate (8, 2) is offside
+coordinate (6, 2) is available
+coordinate (5, 3) is available
+on (7, 4) ctr is 3
+check to (5, 4)
+coordinate (3, 5) is available
+coordinate (4, 6) is available
+coordinate (6, 6) is not available
+coordinate (7, 5) is available
+coordinate (7, 3) is not available
+coordinate (6, 2) is available
+coordinate (4, 2) is available
+coordinate (3, 3) is available
+on (5, 4) ctr is 6
+coordinate (4, 5) is not available
+check minimum counter
+minimum value is 3 in index 0
+move to (4, 7)
+coordinate (2, 8) is offside
+coordinate (3, 9) is offside
+coordinate (5, 9) is offside
+coordinate (6, 8) is offside
+coordinate (6, 6) is not available
+check to (5, 5)
+coordinate (3, 6) is available
+coordinate (4, 7) is not available
+coordinate (6, 7) is available
+coordinate (7, 6) is not available
+coordinate (7, 4) is available
+coordinate (6, 3) is available
+coordinate (4, 3) is available
+coordinate (3, 4) is available
+on (5, 5) ctr is 6
+check to (3, 5)
+coordinate (1, 6) is not available
+coordinate (2, 7) is available
+coordinate (4, 7) is not available
+coordinate (5, 6) is not available
+coordinate (5, 4) is available
+coordinate (4, 3) is available
+coordinate (2, 3) is available
+coordinate (1, 4) is available
+on (3, 5) ctr is 5
+check to (2, 6)
+coordinate (0, 7) is available
+coordinate (1, 8) is offside
+coordinate (3, 8) is offside
+coordinate (4, 7) is not available
+coordinate (4, 5) is not available
+coordinate (3, 4) is available
+coordinate (1, 4) is available
+coordinate (0, 5) is available
+on (2, 6) ctr is 4
+check minimum counter
+minimum value is 4 in index 2
+move to (2, 6)
+check to (0, 7)
+coordinate (-2, 8) is offside
+coordinate (-1, 9) is offside
+coordinate (1, 9) is offside
+coordinate (2, 8) is offside
+coordinate (2, 6) is not available
+coordinate (1, 5) is available
+coordinate (-1, 5) is offside
+coordinate (-2, 6) is offside
+on (0, 7) ctr is 1
+coordinate (1, 8) is offside
+coordinate (3, 8) is offside
+coordinate (4, 7) is not available
+coordinate (4, 5) is not available
+check to (3, 4)
+coordinate (1, 5) is available
+coordinate (2, 6) is not available
+coordinate (4, 6) is available
+coordinate (5, 5) is available
+coordinate (5, 3) is available
+coordinate (4, 2) is available
+coordinate (2, 2) is available
+coordinate (1, 3) is available
+on (3, 4) ctr is 7
+check to (1, 4)
+coordinate (-1, 5) is offside
+coordinate (0, 6) is available
+coordinate (2, 6) is not available
+coordinate (3, 5) is available
+coordinate (3, 3) is available
+coordinate (2, 2) is available
+coordinate (0, 2) is not available
+coordinate (-1, 3) is offside
+on (1, 4) ctr is 4
+check to (0, 5)
+coordinate (-2, 6) is offside
+coordinate (-1, 7) is offside
+coordinate (1, 7) is available
+coordinate (2, 6) is not available
+coordinate (2, 4) is available
+coordinate (1, 3) is available
+coordinate (-1, 3) is offside
+coordinate (-2, 4) is offside
+on (0, 5) ctr is 3
+check minimum counter
+minimum value is 1 in index 0
+move to (0, 7)
+coordinate (-2, 8) is offside
+coordinate (-1, 9) is offside
+coordinate (1, 9) is offside
+coordinate (2, 8) is offside
+coordinate (2, 6) is not available
+check to (1, 5)
+coordinate (-1, 6) is offside
+coordinate (0, 7) is not available
+coordinate (2, 7) is available
+coordinate (3, 6) is available
+coordinate (3, 4) is available
+coordinate (2, 3) is available
+coordinate (0, 3) is available
+coordinate (-1, 4) is offside
+on (1, 5) ctr is 5
+coordinate (-1, 5) is offside
+coordinate (-2, 6) is offside
+check minimum counter
+minimum value is 5 in index 0
+move to (1, 5)
+coordinate (-1, 6) is offside
+coordinate (0, 7) is not available
+check to (2, 7)
+coordinate (0, 8) is offside
+coordinate (1, 9) is offside
+coordinate (3, 9) is offside
+coordinate (4, 8) is offside
+coordinate (4, 6) is available
+coordinate (3, 5) is available
+coordinate (1, 5) is not available
+coordinate (0, 6) is available
+on (2, 7) ctr is 3
+check to (3, 6)
+coordinate (1, 7) is available
+coordinate (2, 8) is offside
+coordinate (4, 8) is offside
+coordinate (5, 7) is not available
+coordinate (5, 5) is available
+coordinate (4, 4) is available
+coordinate (2, 4) is available
+coordinate (1, 5) is not available
+on (3, 6) ctr is 4
+check to (3, 4)
+coordinate (1, 5) is not available
+coordinate (2, 6) is not available
+coordinate (4, 6) is available
+coordinate (5, 5) is available
+coordinate (5, 3) is available
+coordinate (4, 2) is available
+coordinate (2, 2) is available
+coordinate (1, 3) is available
+on (3, 4) ctr is 6
+check to (2, 3)
+coordinate (0, 4) is not available
+coordinate (1, 5) is not available
+coordinate (3, 5) is available
+coordinate (4, 4) is available
+coordinate (4, 2) is available
+coordinate (3, 1) is not available
+coordinate (1, 1) is available
+coordinate (0, 2) is not available
+on (2, 3) ctr is 4
+check to (0, 3)
+coordinate (-2, 4) is offside
+coordinate (-1, 5) is offside
+coordinate (1, 5) is not available
+coordinate (2, 4) is available
+coordinate (2, 2) is available
+coordinate (1, 1) is available
+coordinate (-1, 1) is offside
+coordinate (-2, 2) is offside
+on (0, 3) ctr is 3
+coordinate (-1, 4) is offside
+check minimum counter
+minimum value is 3 in index 0
+move to (2, 7)
+coordinate (0, 8) is offside
+coordinate (1, 9) is offside
+coordinate (3, 9) is offside
+coordinate (4, 8) is offside
+check to (4, 6)
+coordinate (2, 7) is not available
+coordinate (3, 8) is offside
+coordinate (5, 8) is offside
+coordinate (6, 7) is available
+coordinate (6, 5) is not available
+coordinate (5, 4) is available
+coordinate (3, 4) is available
+coordinate (2, 5) is available
+on (4, 6) ctr is 4
+check to (3, 5)
+coordinate (1, 6) is not available
+coordinate (2, 7) is not available
+coordinate (4, 7) is not available
+coordinate (5, 6) is not available
+coordinate (5, 4) is available
+coordinate (4, 3) is available
+coordinate (2, 3) is available
+coordinate (1, 4) is available
+on (3, 5) ctr is 4
+coordinate (1, 5) is not available
+check to (0, 6)
+coordinate (-2, 7) is offside
+coordinate (-1, 8) is offside
+coordinate (1, 8) is offside
+coordinate (2, 7) is not available
+coordinate (2, 5) is available
+coordinate (1, 4) is available
+coordinate (-1, 4) is offside
+coordinate (-2, 5) is offside
+on (0, 6) ctr is 2
+check minimum counter
+minimum value is 2 in index 2
+move to (0, 6)
+coordinate (-2, 7) is offside
+coordinate (-1, 8) is offside
+coordinate (1, 8) is offside
+coordinate (2, 7) is not available
+check to (2, 5)
+coordinate (0, 6) is not available
+coordinate (1, 7) is available
+coordinate (3, 7) is not available
+coordinate (4, 6) is available
+coordinate (4, 4) is available
+coordinate (3, 3) is available
+coordinate (1, 3) is available
+coordinate (0, 4) is not available
+on (2, 5) ctr is 5
+check to (1, 4)
+coordinate (-1, 5) is offside
+coordinate (0, 6) is not available
+coordinate (2, 6) is not available
+coordinate (3, 5) is available
+coordinate (3, 3) is available
+coordinate (2, 2) is available
+coordinate (0, 2) is not available
+coordinate (-1, 3) is offside
+on (1, 4) ctr is 3
+coordinate (-1, 4) is offside
+coordinate (-2, 5) is offside
+check minimum counter
+minimum value is 3 in index 1
+move to (1, 4)
+coordinate (-1, 5) is offside
+coordinate (0, 6) is not available
+coordinate (2, 6) is not available
+check to (3, 5)
+coordinate (1, 6) is not available
+coordinate (2, 7) is not available
+coordinate (4, 7) is not available
+coordinate (5, 6) is not available
+coordinate (5, 4) is available
+coordinate (4, 3) is available
+coordinate (2, 3) is available
+coordinate (1, 4) is not available
+on (3, 5) ctr is 3
+check to (3, 3)
+coordinate (1, 4) is not available
+coordinate (2, 5) is available
+coordinate (4, 5) is not available
+coordinate (5, 4) is available
+coordinate (5, 2) is not available
+coordinate (4, 1) is available
+coordinate (2, 1) is not available
+coordinate (1, 2) is not available
+on (3, 3) ctr is 3
+check to (2, 2)
+coordinate (0, 3) is available
+coordinate (1, 4) is not available
+coordinate (3, 4) is available
+coordinate (4, 3) is available
+coordinate (4, 1) is available
+coordinate (3, 0) is available
+coordinate (1, 0) is not available
+coordinate (0, 1) is available
+on (2, 2) ctr is 6
+coordinate (0, 2) is not available
+coordinate (-1, 3) is offside
+check minimum counter
+minimum value is 3 in index 0
+move to (3, 5)
+coordinate (1, 6) is not available
+coordinate (2, 7) is not available
+coordinate (4, 7) is not available
+coordinate (5, 6) is not available
+check to (5, 4)
+coordinate (3, 5) is not available
+coordinate (4, 6) is available
+coordinate (6, 6) is not available
+coordinate (7, 5) is available
+coordinate (7, 3) is not available
+coordinate (6, 2) is available
+coordinate (4, 2) is available
+coordinate (3, 3) is available
+on (5, 4) ctr is 5
+check to (4, 3)
+coordinate (2, 4) is available
+coordinate (3, 5) is not available
+coordinate (5, 5) is available
+coordinate (6, 4) is not available
+coordinate (6, 2) is available
+coordinate (5, 1) is available
+coordinate (3, 1) is not available
+coordinate (2, 2) is available
+on (4, 3) ctr is 5
+check to (2, 3)
+coordinate (0, 4) is not available
+coordinate (1, 5) is not available
+coordinate (3, 5) is not available
+coordinate (4, 4) is available
+coordinate (4, 2) is available
+coordinate (3, 1) is not available
+coordinate (1, 1) is available
+coordinate (0, 2) is not available
+on (2, 3) ctr is 3
+coordinate (1, 4) is not available
+check minimum counter
+minimum value is 3 in index 2
+move to (2, 3)
+coordinate (0, 4) is not available
+coordinate (1, 5) is not available
+coordinate (3, 5) is not available
+check to (4, 4)
+coordinate (2, 5) is available
+coordinate (3, 6) is available
+coordinate (5, 6) is not available
+coordinate (6, 5) is not available
+coordinate (6, 3) is available
+coordinate (5, 2) is not available
+coordinate (3, 2) is available
+coordinate (2, 3) is not available
+on (4, 4) ctr is 4
+check to (4, 2)
+coordinate (2, 3) is not available
+coordinate (3, 4) is available
+coordinate (5, 4) is available
+coordinate (6, 3) is available
+coordinate (6, 1) is not available
+coordinate (5, 0) is not available
+coordinate (3, 0) is available
+coordinate (2, 1) is not available
+on (4, 2) ctr is 4
+coordinate (3, 1) is not available
+check to (1, 1)
+coordinate (-1, 2) is offside
+coordinate (0, 3) is available
+coordinate (2, 3) is not available
+coordinate (3, 2) is available
+coordinate (3, 0) is available
+coordinate (2, -1) is offside
+coordinate (0, -1) is offside
+coordinate (-1, 0) is offside
+on (1, 1) ctr is 3
+coordinate (0, 2) is not available
+check minimum counter
+minimum value is 3 in index 2
+move to (1, 1)
+coordinate (-1, 2) is offside
+check to (0, 3)
+coordinate (-2, 4) is offside
+coordinate (-1, 5) is offside
+coordinate (1, 5) is not available
+coordinate (2, 4) is available
+coordinate (2, 2) is available
+coordinate (1, 1) is not available
+coordinate (-1, 1) is offside
+coordinate (-2, 2) is offside
+on (0, 3) ctr is 2
+coordinate (2, 3) is not available
+check to (3, 2)
+coordinate (1, 3) is available
+coordinate (2, 4) is available
+coordinate (4, 4) is available
+coordinate (5, 3) is available
+coordinate (5, 1) is available
+coordinate (4, 0) is not available
+coordinate (2, 0) is available
+coordinate (1, 1) is not available
+on (3, 2) ctr is 6
+check to (3, 0)
+coordinate (1, 1) is not available
+coordinate (2, 2) is available
+coordinate (4, 2) is available
+coordinate (5, 1) is available
+coordinate (5, -1) is offside
+coordinate (4, -2) is offside
+coordinate (2, -2) is offside
+coordinate (1, -1) is offside
+on (3, 0) ctr is 3
+coordinate (2, -1) is offside
+coordinate (0, -1) is offside
+coordinate (-1, 0) is offside
+check minimum counter
+minimum value is 2 in index 0
+move to (0, 3)
+coordinate (-2, 4) is offside
+coordinate (-1, 5) is offside
+coordinate (1, 5) is not available
+check to (2, 4)
+coordinate (0, 5) is available
+coordinate (1, 6) is not available
+coordinate (3, 6) is available
+coordinate (4, 5) is not available
+coordinate (4, 3) is available
+coordinate (3, 2) is available
+coordinate (1, 2) is not available
+coordinate (0, 3) is not available
+on (2, 4) ctr is 4
+check to (2, 2)
+coordinate (0, 3) is not available
+coordinate (1, 4) is not available
+coordinate (3, 4) is available
+coordinate (4, 3) is available
+coordinate (4, 1) is available
+coordinate (3, 0) is available
+coordinate (1, 0) is not available
+coordinate (0, 1) is available
+on (2, 2) ctr is 5
+coordinate (1, 1) is not available
+coordinate (-1, 1) is offside
+coordinate (-2, 2) is offside
+check minimum counter
+minimum value is 4 in index 0
+move to (2, 4)
+check to (0, 5)
+coordinate (-2, 6) is offside
+coordinate (-1, 7) is offside
+coordinate (1, 7) is available
+coordinate (2, 6) is not available
+coordinate (2, 4) is not available
+coordinate (1, 3) is available
+coordinate (-1, 3) is offside
+coordinate (-2, 4) is offside
+on (0, 5) ctr is 2
+coordinate (1, 6) is not available
+check to (3, 6)
+coordinate (1, 7) is available
+coordinate (2, 8) is offside
+coordinate (4, 8) is offside
+coordinate (5, 7) is not available
+coordinate (5, 5) is available
+coordinate (4, 4) is available
+coordinate (2, 4) is not available
+coordinate (1, 5) is not available
+on (3, 6) ctr is 3
+coordinate (4, 5) is not available
+check to (4, 3)
+coordinate (2, 4) is not available
+coordinate (3, 5) is not available
+coordinate (5, 5) is available
+coordinate (6, 4) is not available
+coordinate (6, 2) is available
+coordinate (5, 1) is available
+coordinate (3, 1) is not available
+coordinate (2, 2) is available
+on (4, 3) ctr is 4
+check to (3, 2)
+coordinate (1, 3) is available
+coordinate (2, 4) is not available
+coordinate (4, 4) is available
+coordinate (5, 3) is available
+coordinate (5, 1) is available
+coordinate (4, 0) is not available
+coordinate (2, 0) is available
+coordinate (1, 1) is not available
+on (3, 2) ctr is 5
+coordinate (1, 2) is not available
+coordinate (0, 3) is not available
+check minimum counter
+minimum value is 2 in index 0
+move to (0, 5)
+coordinate (-2, 6) is offside
+coordinate (-1, 7) is offside
+check to (1, 7)
+coordinate (-1, 8) is offside
+coordinate (0, 9) is offside
+coordinate (2, 9) is offside
+coordinate (3, 8) is offside
+coordinate (3, 6) is available
+coordinate (2, 5) is available
+coordinate (0, 5) is not available
+coordinate (-1, 6) is offside
+on (1, 7) ctr is 2
+coordinate (2, 6) is not available
+coordinate (2, 4) is not available
+check to (1, 3)
+coordinate (-1, 4) is offside
+coordinate (0, 5) is not available
+coordinate (2, 5) is available
+coordinate (3, 4) is available
+coordinate (3, 2) is available
+coordinate (2, 1) is not available
+coordinate (0, 1) is available
+coordinate (-1, 2) is offside
+on (1, 3) ctr is 4
+coordinate (-1, 3) is offside
+coordinate (-2, 4) is offside
+check minimum counter
+minimum value is 2 in index 0
+move to (1, 7)
+coordinate (-1, 8) is offside
+coordinate (0, 9) is offside
+coordinate (2, 9) is offside
+coordinate (3, 8) is offside
+check to (3, 6)
+coordinate (1, 7) is not available
+coordinate (2, 8) is offside
+coordinate (4, 8) is offside
+coordinate (5, 7) is not available
+coordinate (5, 5) is available
+coordinate (4, 4) is available
+coordinate (2, 4) is not available
+coordinate (1, 5) is not available
+on (3, 6) ctr is 2
+check to (2, 5)
+coordinate (0, 6) is not available
+coordinate (1, 7) is not available
+coordinate (3, 7) is not available
+coordinate (4, 6) is available
+coordinate (4, 4) is available
+coordinate (3, 3) is available
+coordinate (1, 3) is available
+coordinate (0, 4) is not available
+on (2, 5) ctr is 4
+coordinate (0, 5) is not available
+coordinate (-1, 6) is offside
+check minimum counter
+minimum value is 2 in index 0
+move to (3, 6)
+coordinate (1, 7) is not available
+coordinate (2, 8) is offside
+coordinate (4, 8) is offside
+coordinate (5, 7) is not available
+check to (5, 5)
+coordinate (3, 6) is not available
+coordinate (4, 7) is not available
+coordinate (6, 7) is available
+coordinate (7, 6) is not available
+coordinate (7, 4) is available
+coordinate (6, 3) is available
+coordinate (4, 3) is available
+coordinate (3, 4) is available
+on (5, 5) ctr is 5
+check to (4, 4)
+coordinate (2, 5) is available
+coordinate (3, 6) is not available
+coordinate (5, 6) is not available
+coordinate (6, 5) is not available
+coordinate (6, 3) is available
+coordinate (5, 2) is not available
+coordinate (3, 2) is available
+coordinate (2, 3) is not available
+on (4, 4) ctr is 3
+coordinate (2, 4) is not available
+coordinate (1, 5) is not available
+check minimum counter
+minimum value is 3 in index 1
+move to (4, 4)
+check to (2, 5)
+coordinate (0, 6) is not available
+coordinate (1, 7) is not available
+coordinate (3, 7) is not available
+coordinate (4, 6) is available
+coordinate (4, 4) is not available
+coordinate (3, 3) is available
+coordinate (1, 3) is available
+coordinate (0, 4) is not available
+on (2, 5) ctr is 3
+coordinate (3, 6) is not available
+coordinate (5, 6) is not available
+coordinate (6, 5) is not available
+check to (6, 3)
+coordinate (4, 4) is not available
+coordinate (5, 5) is available
+coordinate (7, 5) is available
+coordinate (8, 4) is offside
+coordinate (8, 2) is offside
+coordinate (7, 1) is not available
+coordinate (5, 1) is available
+coordinate (4, 2) is available
+on (6, 3) ctr is 4
+coordinate (5, 2) is not available
+check to (3, 2)
+coordinate (1, 3) is available
+coordinate (2, 4) is not available
+coordinate (4, 4) is not available
+coordinate (5, 3) is available
+coordinate (5, 1) is available
+coordinate (4, 0) is not available
+coordinate (2, 0) is available
+coordinate (1, 1) is not available
+on (3, 2) ctr is 4
+coordinate (2, 3) is not available
+check minimum counter
+minimum value is 3 in index 0
+move to (2, 5)
+coordinate (0, 6) is not available
+coordinate (1, 7) is not available
+coordinate (3, 7) is not available
+check to (4, 6)
+coordinate (2, 7) is not available
+coordinate (3, 8) is offside
+coordinate (5, 8) is offside
+coordinate (6, 7) is available
+coordinate (6, 5) is not available
+coordinate (5, 4) is available
+coordinate (3, 4) is available
+coordinate (2, 5) is not available
+on (4, 6) ctr is 3
+coordinate (4, 4) is not available
+check to (3, 3)
+coordinate (1, 4) is not available
+coordinate (2, 5) is not available
+coordinate (4, 5) is not available
+coordinate (5, 4) is available
+coordinate (5, 2) is not available
+coordinate (4, 1) is available
+coordinate (2, 1) is not available
+coordinate (1, 2) is not available
+on (3, 3) ctr is 2
+check to (1, 3)
+coordinate (-1, 4) is offside
+coordinate (0, 5) is not available
+coordinate (2, 5) is not available
+coordinate (3, 4) is available
+coordinate (3, 2) is available
+coordinate (2, 1) is not available
+coordinate (0, 1) is available
+coordinate (-1, 2) is offside
+on (1, 3) ctr is 3
+coordinate (0, 4) is not available
+check minimum counter
+minimum value is 2 in index 1
+move to (3, 3)
+coordinate (1, 4) is not available
+coordinate (2, 5) is not available
+coordinate (4, 5) is not available
+check to (5, 4)
+coordinate (3, 5) is not available
+coordinate (4, 6) is available
+coordinate (6, 6) is not available
+coordinate (7, 5) is available
+coordinate (7, 3) is not available
+coordinate (6, 2) is available
+coordinate (4, 2) is available
+coordinate (3, 3) is not available
+on (5, 4) ctr is 4
+coordinate (5, 2) is not available
+check to (4, 1)
+coordinate (2, 2) is available
+coordinate (3, 3) is not available
+coordinate (5, 3) is available
+coordinate (6, 2) is available
+coordinate (6, 0) is not available
+coordinate (5, -1) is offside
+coordinate (3, -1) is offside
+coordinate (2, 0) is available
+on (4, 1) ctr is 4
+coordinate (2, 1) is not available
+coordinate (1, 2) is not available
+check minimum counter
+minimum value is 4 in index 0
+move to (5, 4)
+coordinate (3, 5) is not available
+check to (4, 6)
+coordinate (2, 7) is not available
+coordinate (3, 8) is offside
+coordinate (5, 8) is offside
+coordinate (6, 7) is available
+coordinate (6, 5) is not available
+coordinate (5, 4) is not available
+coordinate (3, 4) is available
+coordinate (2, 5) is not available
+on (4, 6) ctr is 2
+coordinate (6, 6) is not available
+check to (7, 5)
+coordinate (5, 6) is not available
+coordinate (6, 7) is available
+coordinate (8, 7) is offside
+coordinate (9, 6) is offside
+coordinate (9, 4) is offside
+coordinate (8, 3) is offside
+coordinate (6, 3) is available
+coordinate (5, 4) is not available
+on (7, 5) ctr is 2
+coordinate (7, 3) is not available
+check to (6, 2)
+coordinate (4, 3) is available
+coordinate (5, 4) is not available
+coordinate (7, 4) is available
+coordinate (8, 3) is offside
+coordinate (8, 1) is offside
+coordinate (7, 0) is available
+coordinate (5, 0) is not available
+coordinate (4, 1) is available
+on (6, 2) ctr is 4
+check to (4, 2)
+coordinate (2, 3) is not available
+coordinate (3, 4) is available
+coordinate (5, 4) is not available
+coordinate (6, 3) is available
+coordinate (6, 1) is not available
+coordinate (5, 0) is not available
+coordinate (3, 0) is available
+coordinate (2, 1) is not available
+on (4, 2) ctr is 3
+coordinate (3, 3) is not available
+check minimum counter
+minimum value is 2 in index 0
+move to (4, 6)
+coordinate (2, 7) is not available
+coordinate (3, 8) is offside
+coordinate (5, 8) is offside
+check to (6, 7)
+coordinate (4, 8) is offside
+coordinate (5, 9) is offside
+coordinate (7, 9) is offside
+coordinate (8, 8) is offside
+coordinate (8, 6) is offside
+coordinate (7, 5) is available
+coordinate (5, 5) is available
+coordinate (4, 6) is not available
+on (6, 7) ctr is 2
+coordinate (6, 5) is not available
+coordinate (5, 4) is not available
+check to (3, 4)
+coordinate (1, 5) is not available
+coordinate (2, 6) is not available
+coordinate (4, 6) is not available
+coordinate (5, 5) is available
+coordinate (5, 3) is available
+coordinate (4, 2) is available
+coordinate (2, 2) is available
+coordinate (1, 3) is available
+on (3, 4) ctr is 5
+coordinate (2, 5) is not available
+check minimum counter
+minimum value is 2 in index 0
+move to (6, 7)
+coordinate (4, 8) is offside
+coordinate (5, 9) is offside
+coordinate (7, 9) is offside
+coordinate (8, 8) is offside
+coordinate (8, 6) is offside
+check to (7, 5)
+coordinate (5, 6) is not available
+coordinate (6, 7) is not available
+coordinate (8, 7) is offside
+coordinate (9, 6) is offside
+coordinate (9, 4) is offside
+coordinate (8, 3) is offside
+coordinate (6, 3) is available
+coordinate (5, 4) is not available
+on (7, 5) ctr is 1
+check to (5, 5)
+coordinate (3, 6) is not available
+coordinate (4, 7) is not available
+coordinate (6, 7) is not available
+coordinate (7, 6) is not available
+coordinate (7, 4) is available
+coordinate (6, 3) is available
+coordinate (4, 3) is available
+coordinate (3, 4) is available
+on (5, 5) ctr is 4
+coordinate (4, 6) is not available
+check minimum counter
+minimum value is 1 in index 0
+move to (7, 5)
+coordinate (5, 6) is not available
+coordinate (6, 7) is not available
+coordinate (8, 7) is offside
+coordinate (9, 6) is offside
+coordinate (9, 4) is offside
+coordinate (8, 3) is offside
+check to (6, 3)
+coordinate (4, 4) is not available
+coordinate (5, 5) is available
+coordinate (7, 5) is not available
+coordinate (8, 4) is offside
+coordinate (8, 2) is offside
+coordinate (7, 1) is not available
+coordinate (5, 1) is available
+coordinate (4, 2) is available
+on (6, 3) ctr is 3
+coordinate (5, 4) is not available
+check minimum counter
+minimum value is 3 in index 0
+move to (6, 3)
+coordinate (4, 4) is not available
+check to (5, 5)
+coordinate (3, 6) is not available
+coordinate (4, 7) is not available
+coordinate (6, 7) is not available
+coordinate (7, 6) is not available
+coordinate (7, 4) is available
+coordinate (6, 3) is not available
+coordinate (4, 3) is available
+coordinate (3, 4) is available
+on (5, 5) ctr is 3
+coordinate (7, 5) is not available
+coordinate (8, 4) is offside
+coordinate (8, 2) is offside
+coordinate (7, 1) is not available
+check to (5, 1)
+coordinate (3, 2) is available
+coordinate (4, 3) is available
+coordinate (6, 3) is not available
+coordinate (7, 2) is not available
+coordinate (7, 0) is available
+coordinate (6, -1) is offside
+coordinate (4, -1) is offside
+coordinate (3, 0) is available
+on (5, 1) ctr is 4
+check to (4, 2)
+coordinate (2, 3) is not available
+coordinate (3, 4) is available
+coordinate (5, 4) is not available
+coordinate (6, 3) is not available
+coordinate (6, 1) is not available
+coordinate (5, 0) is not available
+coordinate (3, 0) is available
+coordinate (2, 1) is not available
+on (4, 2) ctr is 2
+check minimum counter
+minimum value is 2 in index 2
+move to (4, 2)
+coordinate (2, 3) is not available
+check to (3, 4)
+coordinate (1, 5) is not available
+coordinate (2, 6) is not available
+coordinate (4, 6) is not available
+coordinate (5, 5) is available
+coordinate (5, 3) is available
+coordinate (4, 2) is not available
+coordinate (2, 2) is available
+coordinate (1, 3) is available
+on (3, 4) ctr is 4
+coordinate (5, 4) is not available
+coordinate (6, 3) is not available
+coordinate (6, 1) is not available
+coordinate (5, 0) is not available
+check to (3, 0)
+coordinate (1, 1) is not available
+coordinate (2, 2) is available
+coordinate (4, 2) is not available
+coordinate (5, 1) is available
+coordinate (5, -1) is offside
+coordinate (4, -2) is offside
+coordinate (2, -2) is offside
+coordinate (1, -1) is offside
+on (3, 0) ctr is 2
+coordinate (2, 1) is not available
+check minimum counter
+minimum value is 2 in index 1
+move to (3, 0)
+coordinate (1, 1) is not available
+check to (2, 2)
+coordinate (0, 3) is not available
+coordinate (1, 4) is not available
+coordinate (3, 4) is available
+coordinate (4, 3) is available
+coordinate (4, 1) is available
+coordinate (3, 0) is not available
+coordinate (1, 0) is not available
+coordinate (0, 1) is available
+on (2, 2) ctr is 4
+coordinate (4, 2) is not available
+check to (5, 1)
+coordinate (3, 2) is available
+coordinate (4, 3) is available
+coordinate (6, 3) is not available
+coordinate (7, 2) is not available
+coordinate (7, 0) is available
+coordinate (6, -1) is offside
+coordinate (4, -1) is offside
+coordinate (3, 0) is not available
+on (5, 1) ctr is 3
+coordinate (5, -1) is offside
+coordinate (4, -2) is offside
+coordinate (2, -2) is offside
+coordinate (1, -1) is offside
+check minimum counter
+minimum value is 3 in index 1
+move to (5, 1)
+check to (3, 2)
+coordinate (1, 3) is available
+coordinate (2, 4) is not available
+coordinate (4, 4) is not available
+coordinate (5, 3) is available
+coordinate (5, 1) is not available
+coordinate (4, 0) is not available
+coordinate (2, 0) is available
+coordinate (1, 1) is not available
+on (3, 2) ctr is 3
+check to (4, 3)
+coordinate (2, 4) is not available
+coordinate (3, 5) is not available
+coordinate (5, 5) is available
+coordinate (6, 4) is not available
+coordinate (6, 2) is available
+coordinate (5, 1) is not available
+coordinate (3, 1) is not available
+coordinate (2, 2) is available
+on (4, 3) ctr is 3
+coordinate (6, 3) is not available
+coordinate (7, 2) is not available
+check to (7, 0)
+coordinate (5, 1) is not available
+coordinate (6, 2) is available
+coordinate (8, 2) is offside
+coordinate (9, 1) is offside
+coordinate (9, -1) is offside
+coordinate (8, -2) is offside
+coordinate (6, -2) is offside
+coordinate (5, -1) is offside
+on (7, 0) ctr is 1
+coordinate (6, -1) is offside
+coordinate (4, -1) is offside
+coordinate (3, 0) is not available
+check minimum counter
+minimum value is 1 in index 2
+move to (7, 0)
+coordinate (5, 1) is not available
+check to (6, 2)
+coordinate (4, 3) is available
+coordinate (5, 4) is not available
+coordinate (7, 4) is available
+coordinate (8, 3) is offside
+coordinate (8, 1) is offside
+coordinate (7, 0) is not available
+coordinate (5, 0) is not available
+coordinate (4, 1) is available
+on (6, 2) ctr is 3
+coordinate (8, 2) is offside
+coordinate (9, 1) is offside
+coordinate (9, -1) is offside
+coordinate (8, -2) is offside
+coordinate (6, -2) is offside
+coordinate (5, -1) is offside
+check minimum counter
+minimum value is 3 in index 0
+move to (6, 2)
+check to (4, 3)
+coordinate (2, 4) is not available
+coordinate (3, 5) is not available
+coordinate (5, 5) is available
+coordinate (6, 4) is not available
+coordinate (6, 2) is not available
+coordinate (5, 1) is not available
+coordinate (3, 1) is not available
+coordinate (2, 2) is available
+on (4, 3) ctr is 2
+coordinate (5, 4) is not available
+check to (7, 4)
+coordinate (5, 5) is available
+coordinate (6, 6) is not available
+coordinate (8, 6) is offside
+coordinate (9, 5) is offside
+coordinate (9, 3) is offside
+coordinate (8, 2) is offside
+coordinate (6, 2) is not available
+coordinate (5, 3) is available
+on (7, 4) ctr is 2
+coordinate (8, 3) is offside
+coordinate (8, 1) is offside
+coordinate (7, 0) is not available
+coordinate (5, 0) is not available
+check to (4, 1)
+coordinate (2, 2) is available
+coordinate (3, 3) is not available
+coordinate (5, 3) is available
+coordinate (6, 2) is not available
+coordinate (6, 0) is not available
+coordinate (5, -1) is offside
+coordinate (3, -1) is offside
+coordinate (2, 0) is available
+on (4, 1) ctr is 3
+check minimum counter
+minimum value is 2 in index 0
+move to (4, 3)
+coordinate (2, 4) is not available
+coordinate (3, 5) is not available
+check to (5, 5)
+coordinate (3, 6) is not available
+coordinate (4, 7) is not available
+coordinate (6, 7) is not available
+coordinate (7, 6) is not available
+coordinate (7, 4) is available
+coordinate (6, 3) is not available
+coordinate (4, 3) is not available
+coordinate (3, 4) is available
+on (5, 5) ctr is 2
+coordinate (6, 4) is not available
+coordinate (6, 2) is not available
+coordinate (5, 1) is not available
+coordinate (3, 1) is not available
+check to (2, 2)
+coordinate (0, 3) is not available
+coordinate (1, 4) is not available
+coordinate (3, 4) is available
+coordinate (4, 3) is not available
+coordinate (4, 1) is available
+coordinate (3, 0) is not available
+coordinate (1, 0) is not available
+coordinate (0, 1) is available
+on (2, 2) ctr is 3
+check minimum counter
+minimum value is 2 in index 0
+move to (5, 5)
+coordinate (3, 6) is not available
+coordinate (4, 7) is not available
+coordinate (6, 7) is not available
+coordinate (7, 6) is not available
+check to (7, 4)
+coordinate (5, 5) is not available
+coordinate (6, 6) is not available
+coordinate (8, 6) is offside
+coordinate (9, 5) is offside
+coordinate (9, 3) is offside
+coordinate (8, 2) is offside
+coordinate (6, 2) is not available
+coordinate (5, 3) is available
+on (7, 4) ctr is 1
+coordinate (6, 3) is not available
+coordinate (4, 3) is not available
+check to (3, 4)
+coordinate (1, 5) is not available
+coordinate (2, 6) is not available
+coordinate (4, 6) is not available
+coordinate (5, 5) is not available
+coordinate (5, 3) is available
+coordinate (4, 2) is not available
+coordinate (2, 2) is available
+coordinate (1, 3) is available
+on (3, 4) ctr is 3
+check minimum counter
+minimum value is 1 in index 0
+move to (7, 4)
+coordinate (5, 5) is not available
+coordinate (6, 6) is not available
+coordinate (8, 6) is offside
+coordinate (9, 5) is offside
+coordinate (9, 3) is offside
+coordinate (8, 2) is offside
+coordinate (6, 2) is not available
+check to (5, 3)
+coordinate (3, 4) is available
+coordinate (4, 5) is not available
+coordinate (6, 5) is not available
+coordinate (7, 4) is not available
+coordinate (7, 2) is not available
+coordinate (6, 1) is not available
+coordinate (4, 1) is available
+coordinate (3, 2) is available
+on (5, 3) ctr is 3
+check minimum counter
+minimum value is 3 in index 0
+move to (5, 3)
+check to (3, 4)
+coordinate (1, 5) is not available
+coordinate (2, 6) is not available
+coordinate (4, 6) is not available
+coordinate (5, 5) is not available
+coordinate (5, 3) is not available
+coordinate (4, 2) is not available
+coordinate (2, 2) is available
+coordinate (1, 3) is available
+on (3, 4) ctr is 2
+coordinate (4, 5) is not available
+coordinate (6, 5) is not available
+coordinate (7, 4) is not available
+coordinate (7, 2) is not available
+coordinate (6, 1) is not available
+check to (4, 1)
+coordinate (2, 2) is available
+coordinate (3, 3) is not available
+coordinate (5, 3) is not available
+coordinate (6, 2) is not available
+coordinate (6, 0) is not available
+coordinate (5, -1) is offside
+coordinate (3, -1) is offside
+coordinate (2, 0) is available
+on (4, 1) ctr is 2
+check to (3, 2)
+coordinate (1, 3) is available
+coordinate (2, 4) is not available
+coordinate (4, 4) is not available
+coordinate (5, 3) is not available
+coordinate (5, 1) is not available
+coordinate (4, 0) is not available
+coordinate (2, 0) is available
+coordinate (1, 1) is not available
+on (3, 2) ctr is 2
+check minimum counter
+minimum value is 2 in index 0
+move to (3, 4)
+coordinate (1, 5) is not available
+coordinate (2, 6) is not available
+coordinate (4, 6) is not available
+coordinate (5, 5) is not available
+coordinate (5, 3) is not available
+coordinate (4, 2) is not available
+check to (2, 2)
+coordinate (0, 3) is not available
+coordinate (1, 4) is not available
+coordinate (3, 4) is not available
+coordinate (4, 3) is not available
+coordinate (4, 1) is available
+coordinate (3, 0) is not available
+coordinate (1, 0) is not available
+coordinate (0, 1) is available
+on (2, 2) ctr is 2
+check to (1, 3)
+coordinate (-1, 4) is offside
+coordinate (0, 5) is not available
+coordinate (2, 5) is not available
+coordinate (3, 4) is not available
+coordinate (3, 2) is available
+coordinate (2, 1) is not available
+coordinate (0, 1) is available
+coordinate (-1, 2) is offside
+on (1, 3) ctr is 2
+check minimum counter
+minimum value is 2 in index 0
+move to (2, 2)
+coordinate (0, 3) is not available
+coordinate (1, 4) is not available
+coordinate (3, 4) is not available
+coordinate (4, 3) is not available
+check to (4, 1)
+coordinate (2, 2) is not available
+coordinate (3, 3) is not available
+coordinate (5, 3) is not available
+coordinate (6, 2) is not available
+coordinate (6, 0) is not available
+coordinate (5, -1) is offside
+coordinate (3, -1) is offside
+coordinate (2, 0) is available
+on (4, 1) ctr is 1
+coordinate (3, 0) is not available
+coordinate (1, 0) is not available
+check to (0, 1)
+coordinate (-2, 2) is offside
+coordinate (-1, 3) is offside
+coordinate (1, 3) is available
+coordinate (2, 2) is not available
+coordinate (2, 0) is available
+coordinate (1, -1) is offside
+coordinate (-1, -1) is offside
+coordinate (-2, 0) is offside
+on (0, 1) ctr is 2
+check minimum counter
+minimum value is 1 in index 0
+move to (4, 1)
+coordinate (2, 2) is not available
+coordinate (3, 3) is not available
+coordinate (5, 3) is not available
+coordinate (6, 2) is not available
+coordinate (6, 0) is not available
+coordinate (5, -1) is offside
+coordinate (3, -1) is offside
+check to (2, 0)
+coordinate (0, 1) is available
+coordinate (1, 2) is not available
+coordinate (3, 2) is available
+coordinate (4, 1) is not available
+coordinate (4, -1) is offside
+coordinate (3, -2) is offside
+coordinate (1, -2) is offside
+coordinate (0, -1) is offside
+on (2, 0) ctr is 2
+check minimum counter
+minimum value is 2 in index 0
+move to (2, 0)
+check to (0, 1)
+coordinate (-2, 2) is offside
+coordinate (-1, 3) is offside
+coordinate (1, 3) is available
+coordinate (2, 2) is not available
+coordinate (2, 0) is not available
+coordinate (1, -1) is offside
+coordinate (-1, -1) is offside
+coordinate (-2, 0) is offside
+on (0, 1) ctr is 1
+coordinate (1, 2) is not available
+check to (3, 2)
+coordinate (1, 3) is available
+coordinate (2, 4) is not available
+coordinate (4, 4) is not available
+coordinate (5, 3) is not available
+coordinate (5, 1) is not available
+coordinate (4, 0) is not available
+coordinate (2, 0) is not available
+coordinate (1, 1) is not available
+on (3, 2) ctr is 1
+coordinate (4, 1) is not available
+coordinate (4, -1) is offside
+coordinate (3, -2) is offside
+coordinate (1, -2) is offside
+coordinate (0, -1) is offside
+check minimum counter
+minimum value is 1 in index 0
+move to (0, 1)
+coordinate (-2, 2) is offside
+coordinate (-1, 3) is offside
+check to (1, 3)
+coordinate (-1, 4) is offside
+coordinate (0, 5) is not available
+coordinate (2, 5) is not available
+coordinate (3, 4) is not available
+coordinate (3, 2) is available
+coordinate (2, 1) is not available
+coordinate (0, 1) is not available
+coordinate (-1, 2) is offside
+on (1, 3) ctr is 1
+coordinate (2, 2) is not available
+coordinate (2, 0) is not available
+coordinate (1, -1) is offside
+coordinate (-1, -1) is offside
+coordinate (-2, 0) is offside
+check minimum counter
+minimum value is 1 in index 0
+move to (1, 3)
+coordinate (-1, 4) is offside
+coordinate (0, 5) is not available
+coordinate (2, 5) is not available
+coordinate (3, 4) is not available
+check to (3, 2)
+coordinate (1, 3) is not available
+coordinate (2, 4) is not available
+coordinate (4, 4) is not available
+coordinate (5, 3) is not available
+coordinate (5, 1) is not available
+coordinate (4, 0) is not available
+coordinate (2, 0) is not available
+coordinate (1, 1) is not available
+on (3, 2) ctr is 0
+coordinate (2, 1) is not available
+coordinate (0, 1) is not available
+coordinate (-1, 2) is offside
+check minimum counter
+minimum value is 0 in index 0
+move to (3, 2)
+coordinate (1, 3) is not available
+coordinate (2, 4) is not available
+coordinate (4, 4) is not available
+coordinate (5, 3) is not available
+coordinate (5, 1) is not available
+coordinate (4, 0) is not available
+coordinate (2, 0) is not available
+coordinate (1, 1) is not available
+no available move
+11 62 13 36 9 38 31 28 
+14 35 10 63 32 29 8 39 
+61 12 59 34 37 42 27 30 
+50 15 64 43 58 33 40 7 
+1 60 49 54 41 24 45 26 
+16 51 18 57 44 55 6 23 
+19 2 53 48 21 4 25 46 
+52 17 20 3 56 47 22 5 
+execution time : 0.001556 sec

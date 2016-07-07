@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>AngularJs</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<meta name="keywords" content="artimiausios kirpyklos, kirpyklos vilniuje, kirpyklos kaune, kirpyklos klaipėdoje, kirpyklos šiauliuose, kirpyklos panėvežyje, pigus kirpimas"/>
+		<meta name="description" content="Artimiausios kirpyklos ir grožio salonai. Kirpyklos Vilniuje, Kaune, Klaipėdoje, Šiauliuose, Panevėžyje ir kitur."/>
+
+		<title>ReikiaKirptis.lt | Artimiausios kirpyklos | Kirpyklos Vilniuje</title>
+	
+		<!--[if lt IE 9]>
+		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/material-design-iconic-font.css">
+	</head>
+	
+	<body ng-app="CrudApp">
+
+		<header>
+			<div id="logo"></div>
+			<nav id="menu"></nav>
+		</header>
+
+		<div id="map"></div>		
+
+		<section>
+			<div id="sidebebar" ng-view>
+
+			</div>
+		</section>
+		 
+		<footer></footer>
+		<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+		<script>
+			(function() {
+		    
+		    	if(!!navigator.geolocation) {
+		    	
+		    		var map;
+		    	
+			    	var mapOptions = {
+			    		zoom: 15,
+			    		mapTypeId: google.maps.MapTypeId.ROADMAP
+			    	};
+			    	
+			    	map = new google.maps.Map(document.getElementById('map'), mapOptions);
+		    	
+		    		navigator.geolocation.getCurrentPosition(function(position) {
+		    		
+			    		var geolocate = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+			    		
+			    		var infowindow = new google.maps.InfoWindow({
+			    			map: map,
+			    			position: geolocate,
+			    			content:
+			    				'<h2 style="margin:0">Jūs esate čia!!</h2>' +
+			    				'<p>Platuma: ' + position.coords.latitude + '</p>' +
+			    				'<p>Ilguma: ' + position.coords.longitude + '</p>'
+			    		});
+			    		
+			    		map.setCenter(geolocate);
+			    		
+		    		});
+		    		
+		    	} else {
+		    		document.getElementById('map').innerHTML = 'No Geolocation Support.';
+		    	}
+		    	
+		    })();
+		</script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script type="text/javascript" src ="app/app.js"></script>
+	</body>
+</html> 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/knights_tour.dir/main.cpp.o CMakeFiles/knights_tour.dir/KnightsTour.cpp.o CMakeFiles/knights_tour.dir/Test.cpp.o  -o knights_tour -rdynamic 

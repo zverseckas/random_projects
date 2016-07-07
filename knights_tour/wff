@@ -1,0 +1,119 @@
+Test Case 1 STARTS. Board size 4. Start at (0, 0).
+Testing if the solution does not exist.
+Solving using the BACKTRACKING METHOD...
+No solution
+Duration: 0.001613 s
+Solving using the WARNSDORFF'S RULE...
+No solution
+Duration: 2.6e-05 s
+Test Case 1 ENDS with SUCCESS
+Duration: 0.001719 s
+
+Test Case 2 STARTS. Board size 5. Start at (4, 4).
+Testing if the solution exists.
+Solving using the BACKTRACKING METHOD...
+Solution:
+ 23  4 11 16 21
+ 12 17 22  5 10
+  3 24  7 20 15
+ 18 13  2  9  6
+ 25  8 19 14  1
+Duration: 0.006127 s
+Solving using the WARNSDORFF'S RULE...
+Solution:
+  5 18 13 24  3
+ 12 25  4 19 14
+ 17  6 23  2  9
+ 22 11  8 15 20
+  7 16 21 10  1
+Duration: 2.6e-05 s
+Test Case 2 ENDS with SUCCESS
+Duration: 0.006209 s
+
+Test Case 3 STARTS. Board size 5. Start at (1, 1).
+Testing if the solution does not exist.
+Solving using the BACKTRACKING METHOD...
+No solution
+Duration: 0.727646 s
+Solving using the WARNSDORFF'S RULE...
+No solution
+Duration: 2.9e-05 s
+Test Case 3 ENDS with SUCCESS
+Duration: 0.727748 s
+
+Test Case 4 STARTS. Board size 6. Start at (5, 5).
+Testing if the solution exists.
+Solving using the BACKTRACKING METHOD...
+Solution:
+ 29 20  5 10 27 14
+  4  9 28 13  6 11
+ 19 30 21  8 15 26
+ 22  3 24 33 12  7
+ 31 18 35  2 25 16
+ 36 23 32 17 34  1
+Duration: 0.09746 s
+Solving using the WARNSDORFF'S RULE...
+Solution:
+ 25 36 17  4 19 32
+ 14  5 26 33 16  3
+ 35 24 15 18 31 20
+  6 13 34 27  2  9
+ 23 28 11  8 21 30
+ 12  7 22 29 10  1
+Duration: 3.4e-05 s
+Test Case 4 ENDS with SUCCESS
+Duration: 0.097533 s
+
+Test Case 5 STARTS. Board size 7. Start at (0, 0).
+Testing if the solution exists.
+Solving using the BACKTRACKING METHOD...
+Solution:
+  1 18 15  8  3 12 49
+ 20  7  2 17 14  9  4
+ 31 16 19  6 11 48 13
+ 40 21 30 47 24  5 10
+ 29 32 41 22 37 46 25
+ 42 39 34 27 44 23 36
+ 33 28 43 38 35 26 45
+Duration: 0.056325 s
+Solving using the WARNSDORFF'S RULE...
+Solution:
+  1 18 35 42 15 20 33
+ 36 43 16 19 34 49 14
+ 17  2 41 48 45 32 21
+ 40 37 44 31 22 13 46
+  3 28 25 38 47 10  7
+ 26 39 30  5  8 23 12
+ 29  4 27 24 11  6  9
+Duration: 4.7e-05 s
+Test Case 5 ENDS with SUCCESS
+Duration: 0.056428 s
+
+Test Case 6 STARTS. Board size 7. Start at (6, 6).
+Testing if the solution exists.
+Solving using the BACKTRACKING METHOD...
+Solution:
+ 11 46 13  6 35 18 15
+ 44  5 10 17 14  7 36
+ 47 12 45 34  9 16 19
+  4 43 26 21 30 37  8
+ 23 48  3 40 33 20 31
+ 42 27 22 25  2 29 38
+ 49 24 41 28 39 32  1
+Duration: 2.91901 s
+Solving using the WARNSDORFF'S RULE...
+Solution:
+  9 28 37 46  7 26 35
+ 38 47  8 27 36 23  6
+ 29 10 49 40 45 34 25
+ 48 39 42 33 24  5 22
+ 11 30 19 44 41  2 15
+ 18 43 32 13 16 21  4
+ 31 12 17 20  3 14  1
+Duration: 4.8e-05 s
+Test Case 6 ENDS with SUCCESS
+Duration: 2.91916 s
+
+Test Case 7 STARTS. Board size 6. Start at (1, 1).
+Testing if the solution exists.
+Solving using the BACKTRACKING METHOD...

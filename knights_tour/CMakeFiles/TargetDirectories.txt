@@ -1,0 +1,1 @@
+/home/zilvinas/ClionProjects/knights_tour/CMakeFiles/knights_tour.dir
